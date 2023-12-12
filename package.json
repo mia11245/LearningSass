@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "gyatt": "sass --no-source-map --watch CSS/Screen.scss CSS/screen.css",
     "sass": "sass --watch src/main.scss dist/compiled.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "hello": "echo 'hello how are you'" 
