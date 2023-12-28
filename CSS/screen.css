@@ -2,4 +2,39 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-/*# sourceMappingURL=screen.css.map */
+a {
+  color: rgb(151, 93, 151);
+}
+
+.site-header nav ul {
+  padding: 0;
+  margin: 0;
+}
+.site-header nav li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+.site-header nav a {
+  display: block;
+  padding: 10px;
+  background-color: rgb(138, 73, 138);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-a, btn-b {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 15px;
+  border: 1px solid rgb(138, 73, 138);
+  border-radius: 7px;
+  font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+btn-b {
+  background-color: #000;
+}
